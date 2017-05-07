@@ -115,7 +115,7 @@ span.menu{
 }
 .u-header-right { position: relative; }
 .u-visit-box { position: absolute; padding-left: 62px; }
-.u-visit-box .visiter { position: absolute; top: 5px; left: 0; display: inline-block; margin:  0; color: #fff; }
+.u-visit-box .visiter { position: absolute; top: 5px; left: 0; display: inline-block; margin:  0;  width: 70px; color: #fff; }
 
 ul.address-text {
     padding: 0;
