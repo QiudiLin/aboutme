@@ -3,13 +3,15 @@ html, body{
     font-size: 100%;
     background-color: #f3f2f3;
 }
-body a{
+body a {
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
 	-moz-transition:0.5s all;
 	-o-transition:0.5s all;
 	-ms-transition:0.5s all;
 }
+body>a:not(.scroll) { position: absolute; top: 0; visibility: hidden; }
+
 body h1,h2,h3,h4,h5,h6{
 	    font-family: 'Asap', sans-serif;
 }
@@ -111,6 +113,10 @@ span.menu{
 .header-right {
     padding: 3em;
 }
+.u-header-right { position: relative; }
+.u-visit-box { position: absolute; padding-left: 62px; }
+.u-visit-box .visiter { position: absolute; top: 5px; left: 0; display: inline-block; margin:  0; color: #fff; }
+
 ul.address-text {
     padding: 0;
 }
@@ -176,7 +182,7 @@ ul.address {
     text-transform: uppercase;
 }
 ul.address {
-    margin-top: 2em;
+    margin-top: 2.6em;
     border-top: 1px solid #AFAFAF;
     padding-top: 0.5em;
 }
