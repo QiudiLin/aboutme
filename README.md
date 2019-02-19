@@ -1,4 +1,4 @@
 # aboutme
-林秋狄的个人简历（旧，未更新）
+平时调试页面用
 
-简历入口： https://qiudilin.github.io/aboutme/
+入口： https://qiudilin.github.io/aboutme/
